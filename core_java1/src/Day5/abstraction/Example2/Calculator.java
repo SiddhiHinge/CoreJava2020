@@ -1,4 +1,4 @@
-package Day5.abstraction;
+package Day5.abstraction.Example2;
 
 public interface Calculator {
 

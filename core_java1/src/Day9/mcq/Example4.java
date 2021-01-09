@@ -1,4 +1,4 @@
-package day9.mcq;
+package Day9.mcq;
 // output??
 public class Example4 {
 	public static void main(String args[]) 
