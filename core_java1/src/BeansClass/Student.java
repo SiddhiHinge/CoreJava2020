@@ -1,0 +1,68 @@
+package BeansClass;
+
+public class Student {
+
+	int rollNo;
+	String name;
+	String course;
+	int duration;
+	int age;
+	
+	public Student() { }
+
+	public Student(int rollNo, String name, String course, int duration, int age) {
+		super();
+		this.rollNo = rollNo;
+		this.name = name;
+		this.course = course;
+		this.duration = duration;
+		this.age = age;
+	}
+
+	public int getRollNo() {
+		return rollNo;
+	}
+
+	public void setRollNo(int rollNo) {
+		this.rollNo = rollNo;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getCourse() {
+		return course;
+	}
+
+	public void setCourse(String course) {
+		this.course = course;
+	}
+
+	public int getDuration() {
+		return duration;
+	}
+
+	public void setDuration(int duration) {
+		this.duration = duration;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	@Override
+	public String toString() {
+		return "Student RollNo = " + rollNo + "\nName = " + name + "\nCourse = " + course + "\nDuration = " + duration
+				+ "\nAge = " + age;
+	}
+	
+}
